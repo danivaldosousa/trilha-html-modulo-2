@@ -7,6 +7,25 @@ body {
     justify-content: center;
 }
 
+.content table thead th {
+    background-color: black;
+    color: white;
+}
+
+.content table, tr, td {
+    border: solid 1px;
+}
+
+
+.content table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.content table tbody tr:hover td{
+    background-color: #E9E9E9;
+    cursor: pointer;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -20,19 +39,27 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(194, 121, 13);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(151, 64, 6);
     min-height: 150px;
 }
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(194, 121, 13);
     min-height: 150px;
+    
 }
